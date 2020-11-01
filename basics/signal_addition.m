@@ -13,7 +13,7 @@ ylim([-maxA maxA]);
 title('A, A=10, f=1','fontsize', 20);
 
 subplot(3,2,2);
-plot(abs(fft(A)));
+plot(abs(fft(A))); % fast fourier transform
 title('A, Freq Domain','fontsize', 20);
 
 subplot(3,2,3);
