@@ -1,7 +1,7 @@
 clc
 
-n = [0:20 * pi];
-x1 = exp(j * pi/6 .* n);
+n = (0:20 * pi);
+x1 = exp(1i * pi/6 .* n);
 whos; % will print information about variables
 
 % stem: will draw discrete-time plot
