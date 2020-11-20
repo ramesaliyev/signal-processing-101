@@ -1,2 +1,5 @@
 *.asv
 .DS_Store
+drive/**/.MATLABDriveTag
+drive/.MATLABDriveAppData
+drive/Icon*
