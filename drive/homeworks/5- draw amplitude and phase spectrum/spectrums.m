@@ -16,7 +16,7 @@ function fr = hn_freq_response(o)
 end
 
 function ft = xn_dtft(o)
-    a = 0.5;
+    a = 0.99;
     ft = 1 / (1 - a*exp(-1i*o));
 end
 
